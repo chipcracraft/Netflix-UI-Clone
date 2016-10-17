@@ -1,0 +1,45 @@
+@import "./imports/_normalize.scss";
+
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+  background: url("http://www.userlogos.org/files/backgrounds/soundofemotion/gray_holograph_gradient.jpg") center, center, no-repeat;
+}
+#app-container {
+  color: white;
+  font-weight: 1px;
+}
+
+a {
+  color: white;
+  font-style: none;
+}
+
+.user-name:hover {
+  background-color: #D31027;
+}
+
+.fa-home {
+  color: blue;
+  position: fixed;
+  right: 2%;
+  top: 3%;
+}
+.user-name {
+  // background: black;
+  color: white;
+
+}
+
+
+.shows-list {
+  // background: black;
+  // border: none;
+  color: white;
+
+}
